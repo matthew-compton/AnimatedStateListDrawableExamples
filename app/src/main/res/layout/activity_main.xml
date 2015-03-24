@@ -10,21 +10,21 @@
         android:id="@+id/heart_animation_list_emptying"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/animation_list_emptying"
+        android:background="@drawable/animation_list_emptying"
         />
 
     <ImageView
         android:id="@+id/heart_animation_list_filling"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/animation_list_filling"
+        android:background="@drawable/animation_list_filling"
         />
 
     <ImageView
         android:id="@+id/heart_animated_selector"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/animated_selector"
+        android:background="@drawable/animated_selector"
         />
 
 </LinearLayout>

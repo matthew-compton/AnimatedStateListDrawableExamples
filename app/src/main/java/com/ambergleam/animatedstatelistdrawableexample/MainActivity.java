@@ -33,4 +33,9 @@ public class MainActivity extends Activity {
         ((AnimationDrawable) mFilling.getBackground()).start();
     }
 
+    @OnClick(R.id.heart_animated_selector)
+    public void onClickSelector() {
+        mSelector.setActivated(!mSelector.isActivated());
+    }
+
 }
